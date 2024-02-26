@@ -11,3 +11,11 @@ total_cost=base_fare-discount
 The output should be structured as shown in the sample output.
 
 Note: train_number cannot be changed.
+
+2. Develop a Ruby program to enter the speed of the train and check if it is either express train , passenger train or a bullet train. 
+
+For express trains, speed range => 45kmph - 75 kmph
+
+For passenger trains , speed range => 30kmph- 45kmph
+
+For bullet trains , take speed range => 75kmph - 90kmph.
