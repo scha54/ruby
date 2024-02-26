@@ -1,0 +1,10 @@
+speed = 35
+if speed >= 45 && speed < 75
+  puts "Express Train"
+else if speed >= 30 && speed < 45
+  puts "Passenger Train"
+else if speed >= 75 && speed < 90
+  puts "Bullet Train"
+else
+  puts "No Train"
+end
