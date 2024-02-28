@@ -19,3 +19,9 @@ For express trains, speed range => 45kmph - 75 kmph
 For passenger trains , speed range => 30kmph- 45kmph
 
 For bullet trains , take speed range => 75kmph - 90kmph.
+
+3. Problem Statement:
+
+Objective: Develop a Ruby program to store the traveler id, first name, last name, and phone number, in the form of an array and display the elements one by one with corresponding integer values using each loop.
+
+Problem Description: Define a variable infy_rail and store different data such as traveler_id, first_name, last_name, and phone_number, in the form of an array. The value stored for traveler_id should be numeric, first_name and last_name should be string and phone_number should also be numeric. Display all the data along with the index number.
