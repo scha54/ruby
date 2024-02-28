@@ -1,0 +1,11 @@
+traveller_id = 12
+first_name = "Sandeep"
+last_name = "Chakravartty"
+phone_number = 6572592650
+infy_rail = [traveller_id,first_name,last_name,phone_number]
+t_id = infy_rail[0].to_s
+p_no = infy_rail[3].to_s
+puts "#{t_id} - 1"
+puts "#{infy_rail[1]} - 2 "
+puts "#{infy_rail[2]} - 3 "
+puts "#{p_no} - 4"
