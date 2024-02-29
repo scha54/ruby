@@ -25,3 +25,9 @@ For bullet trains , take speed range => 75kmph - 90kmph.
 Objective: Develop a Ruby program to store the traveler id, first name, last name, and phone number, in the form of an array and display the elements one by one with corresponding integer values using each loop.
 
 Problem Description: Define a variable infy_rail and store different data such as traveler_id, first_name, last_name, and phone_number, in the form of an array. The value stored for traveler_id should be numeric, first_name and last_name should be string and phone_number should also be numeric. Display all the data along with the index number.
+
+4.Problem Statement:
+
+Objective: Develop a Ruby program to store traveler id, traveler name, and traveler destination values in different keys as symbols and display an appropriate message.
+
+Problem Description: Define a variable infy_rail and store different values for traveler_id, traveler_name, and traveler_dest in the form of an key-value pair. The value stored for traveler_id, traveler_name and traveler_dest should be string and display an appropriate message.
