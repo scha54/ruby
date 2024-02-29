@@ -1,0 +1,5 @@
+infy_rail={:traveler_id=>"C101",:traveler_name=>"Jack",:traveler_dest=>"Bangalore to Delhi"}
+a=infy_rail[:traveler_id]
+b=infy_rail[:traveler_name]
+c=infy_rail[:traveler_dest]
+puts "The traveler details are:" + "[" + a + "," + b + "," + c + "]"
