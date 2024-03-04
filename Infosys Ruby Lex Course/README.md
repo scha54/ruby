@@ -31,3 +31,9 @@ Problem Description: Define a variable infy_rail and store different data such a
 Objective: Develop a Ruby program to store traveler id, traveler name, and traveler destination values in different keys as symbols and display an appropriate message.
 
 Problem Description: Define a variable infy_rail and store different values for traveler_id, traveler_name, and traveler_dest in the form of an key-value pair. The value stored for traveler_id, traveler_name and traveler_dest should be string and display an appropriate message.
+
+5. Problem Statement:
+
+Objective: Develop a Ruby program to collect train id,  traveler id, train name, traveler name, and phone number and print all the data one by one.
+
+Problem Description: Collect data for train_id, traveler_id, train_name, traveler_name, and phone_number in the form of a collection. Then iterate through it and execute the data one by one.
