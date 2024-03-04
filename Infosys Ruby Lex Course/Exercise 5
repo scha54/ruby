@@ -1,0 +1,7 @@
+train_id = 10098
+traveler_id = "C101"
+train_name = "Geetanjali Express"
+traveler_name = "Jack"
+phone_number = 9867543201
+info = [train_id,traveler_id,train_name,traveler_name,phone_number]
+puts info
