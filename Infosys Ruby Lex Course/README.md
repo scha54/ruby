@@ -43,3 +43,5 @@ Problem Description: Collect data for train_id, traveler_id, train_name, travele
 Objective: Develop a Ruby program to define two methods to add traveler's details and to remove traveler's details and call the methods according to the user's choice.
 
 Problem Description: Define two methods add_travelerDetails and remove_travelerDetails with parameters like traveler_id, traveler_name, and phone_number, and as a user, first add the traveler details and then remove the details. 
+
+7. Create a class ‘Details’ in Ruby to enter the name , age and berth  preference of a user travelling by train and print the details. Create another class ‘Preference’ to add a functionality where the user gets the berth only if the the age of the user is above 50. Create a subclass ‘Confirmation’ for  class ‘Preference’ to display “Tickets confirmed” if the age and name  (The name of the user should have less than 20 and more that 4 characters) criteria is met else display “System error, try again” .
