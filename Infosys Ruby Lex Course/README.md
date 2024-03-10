@@ -51,3 +51,27 @@ Problem Description: Define two methods add_travelerDetails and remove_travelerD
 Objective: Develop a Ruby program to check whether you are eligible for a discount that is given to senior citizens.
 
 Problem Description: Define a class User which will have a method age_validation. In the method age_validation, take the age as input from the user and check whether the age is greater than 60 or not. If it is greater than 60, they can avail of a discount of 20%, and an appropriate message “Congratulations! You are eligible for a 20% of discount on your booking” should be displayed, if the age is >1 and <60 then display a message “Sorry! Only senior citizens are eligible for a discount.” else raise an  InfyRailException stating that “Invalid age ! Provide a valid age ”.
+
+9. Problem Statement 
+
+Background: This problem statement provides the high-level design of the project that has to be implemented as part of the hands-on assessment in order to complete the course Ruby Programming.
+
+InfyGo is an airline application that provides airline services to its customers like search, book, cancel booked flights, etc which is going to be developed in Ruby. In this case study, you are required to design a few of the classes of the InfyGo application
+
+Software Requirement:
+
+Here is the software setup needed, before having a look at the requirements in detail.
+
+Ruby à 3.1.2p20(x32 bit architecture)
+VS Code à 1.66.2
+Project Implementation:
+
+Implement the below class diagram:
+
+Flight Class:
+Inside the class Flight, store all the datas such as flight_id(String datatype), airlines(String datatype), source(String datatype), destination(String datatype), fare(Float datatype), journey_date(String datatype) and seat_count(Integer datatype).
+Flight_Service.Class:
+flights:flights should be a hash variable where the keys is the flight_id and the value is Flight object.
+Add Flight: Create a method add_flight  should add a Flight object into the hash variable .
+Search Flight: Create a method search_flight. This will search the flight details based on the source, destination, and journey_date in flights(hash structure). If the provided journey date is during the festival season(Dec to Jan) then increase the flight fare by 20% for all search results before returning.
+Raise an exception whenever the wrong flight details are given for search.
