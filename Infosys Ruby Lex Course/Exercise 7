@@ -1,0 +1,34 @@
+class Details
+  @name = "Sandeep Chakravartty"
+  @age = 31
+  @berth_preference = "Window"
+  puts "Name of the customer = #@name"
+  puts "Age of the customer = #@age"
+  puts "Berth Preference = #@berth_preference"
+end
+
+
+class Preference
+  def berth_confirmation(age)
+    if age > 50
+      return TRUE
+    else
+      return FALSE
+  end
+end
+
+class Confirmation < Preference
+  def berth_reservation(name)
+    if name.length > 4 and name.length < 20
+      return TRUE
+    else
+      return FALSE
+  end
+  
+  if berth_confirmation == TRUE and berth_reservation == TRUE
+    puts "Tickets Confirmed"
+  else
+    puts "System error, Try again"
+end
+
+
