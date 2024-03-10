@@ -45,3 +45,9 @@ Objective: Develop a Ruby program to define two methods to add traveler's detail
 Problem Description: Define two methods add_travelerDetails and remove_travelerDetails with parameters like traveler_id, traveler_name, and phone_number, and as a user, first add the traveler details and then remove the details. 
 
 7. Create a class ‘Details’ in Ruby to enter the name , age and berth  preference of a user travelling by train and print the details. Create another class ‘Preference’ to add a functionality where the user gets the berth only if the the age of the user is above 50. Create a subclass ‘Confirmation’ for  class ‘Preference’ to display “Tickets confirmed” if the age and name  (The name of the user should have less than 20 and more that 4 characters) criteria is met else display “System error, try again” .
+
+8. Problem Statement:
+
+Objective: Develop a Ruby program to check whether you are eligible for a discount that is given to senior citizens.
+
+Problem Description: Define a class User which will have a method age_validation. In the method age_validation, take the age as input from the user and check whether the age is greater than 60 or not. If it is greater than 60, they can avail of a discount of 20%, and an appropriate message “Congratulations! You are eligible for a 20% of discount on your booking” should be displayed, if the age is >1 and <60 then display a message “Sorry! Only senior citizens are eligible for a discount.” else raise an  InfyRailException stating that “Invalid age ! Provide a valid age ”.
