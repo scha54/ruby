@@ -1,0 +1,37 @@
+class Flight
+  attr_accessor :flight_id, :airlines, :source, :destination, :fare, :journey_date, :seat_count
+
+  def initialize(flight_id, airlines, source, destination, fare, journey_date, seat_count)
+    @flight_id = flight_id
+    @airlines = airlines
+    @source = source
+    @destination = destination
+    @fare = fare
+    @journey_date = journey_date
+    @seat_count = seat_count
+  end
+end
+
+class FlightService < Flight
+  flights = {}
+   def self.add_flight(flights_hash, flight)
+    flights_hash[flight.flight_id] = flight
+   end
+   
+   def search_flight(source, destination, journey_date)
+    matching_flights = @flights.values.select do |flight|
+      flight.source == source &&
+        flight.destination == destination &&
+        flight.journey_date == journey_date
+   end
+   
+   if journey_date.include?("12") || journey_date.include?("01")
+      matching_flights.each { |flight| flight.fare *= 1.2 }  # Increase fare by 20%
+   end
+   
+   if matching_flights.empty?
+      raise StandardError, "No matching flights found for the given criteria."
+   end
+   matching_flights
+  end 
+end
