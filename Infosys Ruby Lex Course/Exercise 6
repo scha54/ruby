@@ -1,0 +1,10 @@
+def add_travelerDetails(traveler_ID,traveler_name,phone_number)
+  puts "The traveler details with traveler id #{traveler_ID} have been added in the system!"
+end
+
+def remove_travelerDetails(traveler_ID,traveler_name,phone_number)
+  puts "The traveler details with traveler id #{traveler_ID} have been removed successfully from the system!"
+end
+
+add_travelerDetails("T101","James",9876543210)
+remove_travelerDetails("T101","James",9876543210)
