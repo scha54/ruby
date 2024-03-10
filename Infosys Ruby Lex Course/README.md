@@ -37,3 +37,9 @@ Problem Description: Define a variable infy_rail and store different values for 
 Objective: Develop a Ruby program to collect train id,  traveler id, train name, traveler name, and phone number and print all the data one by one.
 
 Problem Description: Collect data for train_id, traveler_id, train_name, traveler_name, and phone_number in the form of a collection. Then iterate through it and execute the data one by one.
+
+6. Problem Statement:
+
+Objective: Develop a Ruby program to define two methods to add traveler's details and to remove traveler's details and call the methods according to the user's choice.
+
+Problem Description: Define two methods add_travelerDetails and remove_travelerDetails with parameters like traveler_id, traveler_name, and phone_number, and as a user, first add the traveler details and then remove the details. 
