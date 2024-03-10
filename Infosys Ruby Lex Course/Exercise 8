@@ -1,0 +1,21 @@
+class User
+  def age_validation(age)
+    if age > 60
+      puts "Congratulations! You are eligible for a 20% of discount on your booking"
+    else if age < 60 and age > 1
+      puts "Sorry! Only senior citizens are eligible for a discount."
+    else
+      raise InfyRailException
+  end
+end
+
+class InfyRailException < StandardError
+  def message
+    puts "Invalid age! Provide a valid age"
+  end  
+end
+
+puts "What's your age?"
+age = gets
+new_user = User.new
+new_user.age_validation(age)
